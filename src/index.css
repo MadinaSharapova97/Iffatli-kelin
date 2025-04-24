@@ -1,2 +1,8 @@
 .custom-playfair {
-  font-family: 'Italiana', serif;}
+  font-family: 'Italiana', serif;
+}
+
+.bg-gradiant {
+  background: #EC3D79;
+  background: linear-gradient(90deg, rgba(236, 61, 121, 1) 0%, rgba(236, 61, 121, 1) 38%, rgba(237, 221, 83, 0) 56%);
+}

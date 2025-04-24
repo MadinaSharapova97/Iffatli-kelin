@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import Logo from '../assets/images/Logo.jpg';
 import { Menu, X, ChevronDown } from 'lucide-react';
-import Tikuvchilik from "../pages/resurslar/bolimlar/tikuvchilik/Tikuvchilik"
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -61,8 +60,18 @@ const Navbar = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link to="/resurslar/oila-psixologiyasi" className="block px-4 py-2 hover:bg-[#f9b6d1] hover:text-white" onClick={closeDropdown}>
-                    Oila psixologiyasi
+                  <Link to="/resurslar/til-kurslari" className="block px-4 py-2 hover:bg-[#f9b6d1] hover:text-white" onClick={closeDropdown}>
+                    Til kurslari
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/resurslar/qo'l-mehnati" className="block px-4 py-2 hover:bg-[#f9b6d1] hover:text-white" onClick={closeDropdown}>
+                    Qo'l mehnati
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/resurslar/kompyuter-kurslari" className="block px-4 py-2 hover:bg-[#f9b6d1] hover:text-white" onClick={closeDropdown}>
+                    Kompyuter kurslari
                   </Link>
                 </li>
               </ul>
