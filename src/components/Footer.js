@@ -1,5 +1,4 @@
 import React from 'react'
-import { FaBurger } from 'react-icons/fa6'
 import { FaFacebook } from "react-icons/fa"
 import { FaInstagram } from "react-icons/fa";
 import { FaTwitter } from "react-icons/fa";
@@ -11,11 +10,7 @@ const Footer = () => {
       <div className='pt-[5rem] pb-[5rem]'>
         <div className='text-center'>
           <h1 className='text-[28px] sm:text-[38px] md:text-[50px] custom-playfair uppercase text-[#ec3d79]'>Bilim sari ilk qadamni biz bilan qo‘ying!</h1>
-          <p className='text-[#911a1b] text-opacity-70 w-[80%] md:w-[60%] mx-auto'>Lorem ipsum, dolor sit amet consectetur
-            adipisicing elit. Nobis praesentium ratione
-            commodi consectetur amet iure minima assumenda ex
-            aliquam voluptatem dicta soluta maxime perspiciatis
-            consequatur consequuntur omnis id, ipsam ad?</p>
+
           <div className='flex items-center space-x-2 mt-[3rem] justify-center'>
             {/* input */}
             <input type="email" placeholder='Email Address' className='px-5 py-4 bg-gray-300 w-[40%] outline-none rounded-lg placeholder:text-black' />
@@ -36,25 +31,23 @@ const Footer = () => {
               {/* <FaBurger className='w-[1.2rem] sm:w-[1.4rem] sm:h-[1.4rem] text-orange-500' /> */}
               <h1 className='text-[20px] sm:text-[30px] font-semibold'>Iffatli Kelin</h1>
             </div>
-            <p className='text-white text-opacity-60 mt-[0.4rem]'>Lorem ipsum dolor sit amet consectetur
-              adipisicing elit. Recusandae accusamus
-              quidem culpa non natus dolorum error
-              consectetur tenetur perspiciatis dolorem.
+            <p className='text-white text-opacity-60 mt-[0.4rem]'>
+              "Iffatli Kelin" o‘quv markazi – har bir ayol o‘z salohiyatini kashf etadigan, bilim va hunarni uyg‘unlashtiradigan ilhomlantiruvchi muhit.
             </p>
-            <p className='mt-[1rem] text-white'>support@example.com</p>
-            <p className='text-yellow-300 text-[19px] font-bold'>+(123) 2346 87378</p>
+            <p className='mt-[1rem] text-white'>Iffatli_kelin@mail.ru</p>
+            <p className='text-yellow-300 text-[19px] font-bold'>+998 71 279 16 81</p>
           </div>
           {/* 2nd part */}
           <div>
             <h1 className='text-[23px] font-semibold mb-[2rem] text-white'>Kurslar</h1>
-            <p className='mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit'>Tikubchilik</p>
+            <p className='mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit'>Tikuvchilik</p>
             <p className='mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit'>Pazandachilik</p>
             <p className='mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit'>Hamshiralik</p>
             <p className='mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit'>Makiyaj va Soch</p>
             <p className='mt-[0.7rem] text-white opacity-60 hover:text-yellow-300 transition-all duration-200 cursor-pointer w-fit'>Oila Psixologiyasi</p>
           </div>
           {/* 3rd part */}
-          
+
           <div>
             <h1 className='text-[23px] font-semibold mb-[2rem] text-white'>Tezkor Link</h1>
             <ul>

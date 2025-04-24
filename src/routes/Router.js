@@ -16,6 +16,7 @@ import Makiyaj from '../pages/resurslar/bolimlar/Makiyaj';
 import TilKurslari from '../pages/resurslar/bolimlar/TilKurslari';
 import Mehnat from '../pages/resurslar/bolimlar/Mehnat'
 import Kompyuter from '../pages/resurslar/bolimlar/Kompyuter'
+import Kitoblar from '../pages/resurslar/bolimlar/Kitoblar'
 
 export default function Roter() {
   return (
@@ -35,6 +36,9 @@ export default function Roter() {
       <Route path="/resurslar/til-kurslari" element={<TilKurslari />} />
       <Route path="/resurslar/qo'l-mehnati" element={<Mehnat />} />
       <Route path="/resurslar/kompyuter-kurslari" element={<Kompyuter />} />
+      <Route path="/resurslar/kitoblar" element={<Kitoblar />} />
+
+      
     </Routes>
 
 

@@ -73,6 +73,11 @@ const Navbar = () => {
                   <Link to="/resurslar/kompyuter-kurslari" className="block px-4 py-2 hover:bg-[#f9b6d1] hover:text-white" onClick={closeDropdown}>
                     Kompyuter kurslari
                   </Link>
+                  <li>
+                  <Link to="/resurslar/kitoblar" className="block px-4 py-2 hover:bg-[#f9b6d1] hover:text-white" onClick={closeDropdown}>
+                    Kitoblar
+                  </Link>
+                </li>
                 </li>
               </ul>
             )}
